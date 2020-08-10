@@ -1,7 +1,7 @@
 ![Organix Logo](logo.png)
 
 # Organix Whitepaper
-#### Version 0.2 ( August, 2020 )
+#### Version 1.0 ( August, 2020 )
 
 ## Background
 DeFi ( Decentralized Finance ) is one of the most suitable scenarios for blockchain ( decentralized, transparent, anonymous, trustworthy and value transmission, etc. )
