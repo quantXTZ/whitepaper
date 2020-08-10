@@ -6,7 +6,7 @@
 ## Background
 DeFi ( Decentralized Finance ) is one of the most suitable scenarios for blockchain ( decentralized, transparent, anonymous, trustworthy and value transmission, etc. )
 
-In 2015, Ethereum brought Smart Contract into blockchain and with years of user accumulation and continuous contributions from the developers community, which led to plenty of projectes issued their token on the Ethereum Network. This is the main reason why DeFi can be developed on Ethereum. However, due to the performance bottleneck, high transaction fee and low TPS of Ethereum, DeFi is still unable to be widely popularized and applied<sup>[1]<sup>. The current mainstream DeFi projects on Ethereum have about 1,000 daily activities only<sup>[2]<sup>. 
+In 2015, Ethereum brought Smart Contract into blockchain and with years of user accumulation and continuous contributions from the developers community, which led to plenty of projectes issued their token on the Ethereum Network. This is the main reason why DeFi can be developed on Ethereum. However, due to the performance bottleneck, high transaction fee and low TPS of Ethereum, DeFi is still unable to be widely popularized and applied<sup>[1]</sup>. The current mainstream DeFi projects on Ethereum have about 1,000 daily activities only<sup>[2]</sup>. 
 
 EOS is the third generation blockchain system, which can achieve massive commercial adoptions with almost zero cost and second-onchain confirmation. Currently, games and DEXs built on EOS gain great successes and the user experience has been greatly imporved.
 
@@ -77,7 +77,7 @@ There are two types of changes in debt pool and individual debt :
 
 ### 2. The Oracle
 
-Limited by the consensus model of the blockchain, smart contracts can only call internal contract information, and cannot directly obtain information from systems outside the chain. The Blockchain Oracle is an implementation mechanism for the interaction between the blockchain and the external world. It establishes a trustworthy bridging mechanism between the blockchain and the external world, so that external data can enter the blockchain safely and reliably<sup>[3]<sup>.
+Limited by the consensus model of the blockchain, smart contracts can only call internal contract information, and cannot directly obtain information from systems outside the chain. The Blockchain Oracle is an implementation mechanism for the interaction between the blockchain and the external world. It establishes a trustworthy bridging mechanism between the blockchain and the external world, so that external data can enter the blockchain safely and reliably<sup>[3]</sup>.
 
 The oracle is the core module in the Organix protocol. The prices of all synthetic assets in the trading system are provided by multiple oracles. Use algorithms from multiple sources to form an aggregate value for each asset.
 
