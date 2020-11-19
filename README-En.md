@@ -1,7 +1,7 @@
 ![Organix Logo](logo.png)
 
 # Organix Whitepaper
-#### Version 1.0 ( August, 2020 )
+#### Version 1.1 ( November, 2020 )
 
 ## Background
 DeFi ( Decentralized Finance ) is one of the most suitable scenarios for blockchain ( decentralized, transparent, anonymous, trustworthy and value transmission, etc. )
@@ -37,7 +37,7 @@ Users' C-Ratio varies from price to price, they can increase the C-Ratio through
 ### 2. Staking Rewards From Inflation And Exchange Fee
 The weekly claimable OGX inflation rewards and exchange fees are allocated based in the proportion of debt each users has issued. In order to claim the rewards, the users' C-Ratio must be larger than minimal C-Ratio, which is 800% initially. Users can adjust their ratio by burning synths or stake more OGX when it falls below 800%. 
 
-Due to the high C-Ratio, the system has no liquidation merchanism at the moment, the penalty for C-Ratio that lower than 800% is the inability to claim inflationary rewards and exchange fee rewards, but it doesn't exclude the possibilites to reduce the C-Ratio and add the liquidation merchanism after the governance module gets mature later.
+When the C-Ratio is lower than 200%, it can be marked as to be settled. There will be a buffer period. If the buffer period is exceeded, it can be liquidated by anyone. The liquidator can obtain more valuable OGX through paying OUSD.
 
 ### 3. Exchange Synths
 Through Organix's synthetix assets exchange, various synthetic assets can be traded according to the price of the oracle conveniently. Cryptocurrencies like BTC, ETH and EOS, commodities, gold, crude oil, inverse cryptocurrencies like iBTC, iETH, iEOS and any other  assets that can be digitally simulated, without consideration of slippage and liquidity limitation, and charge an exchange fee which is 0.2%. And 0.18% fee is extracted and sent to the fee pool to reward OGX stakers, the other 0.02% will be sent to referral pool, or will be sent to the fee pool if there is no inviters.
@@ -89,6 +89,17 @@ At the beginning of the project, Organix will use its own oracles and third-part
 To incent holders who engages into stake actively, the total supply will inflate from 100,000,000 to 245,000,000 in 3 years after the system launches, the inflation rate will decrease year by year. The inflated tokens are distributed to stakers weekly on a pro-rata proportion of debt each staker has issued. All the stakers who meet the minimum C-Ratio requirements of the system can claim the token, and tokens that are not claimed or allocated will be redistributed in next round.
 
 The reason of the protocol's inflationary monetary policy is the debt, from stake OGX to mint OUSD, can fluctuate ( refer to Debt Calculation ). So the system designs inflation rewards and exchange fee rewards. With the gradual increase in transaction volume in the later period, the incentive effect of transaction fees will be more obvious. Just like BTC's incentives to miners, inflationary rewards will become less and less, and the proportion of miners' fees will gradually increase.
+
+#### 3.1 OGX inflation rules
+
+-  In the first 40 weeks, 1442307.6923 OGX was issued every week.
+-  From the 40th week to the 234th week, the weekly inflation decreased by 1.25% each week.
+-  After 234 weeks, the fixed inflation rate is 0.048077% (2.5% / 52) per week.
+
+
+![OGX Total Supply](ogx-supply-en.png)
+
+
 
 ### 4. The Referral Mechanism
 
@@ -160,12 +171,13 @@ Second half of the year, it will be decided to start a new chain, based EOSIO or
 Total supply : 100,000,000  
 
 - Team - 25%  
-Lock up period is 24 months and token vest biannually, first vesting on the date of project launch
+Vesting four times on August 15, 2020, February 15, 2021, May 15, 2021 and August 15, 2021
+
 
 - Foudation - 10%  
 
 - Private Sale - 39%  
-Lock up period is 12 months and token vest quarterly, first vesting on the date of project launch
+Vesting four times on August 15, 2020, February 15, 2021, May 15, 2021 and August 15, 2021
 
 - Public Sale - 20% ( 25% for TPT swap, and 75% for EOS swap )  
 
