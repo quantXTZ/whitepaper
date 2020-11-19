@@ -171,7 +171,7 @@ Second half of the year, it will be decided to start a new chain, based EOSIO or
 Total supply : 100,000,000  
 
 - Team - 25%  
-Vesting four times on August 15, 2020, February 15, 2021, May 15, 2021 and August 15, 2021
+Vesting four times on August 15, 2020, August 15, 2021, February 15, 2022 and August 15, 2022
 
 
 - Foudation - 10%  
